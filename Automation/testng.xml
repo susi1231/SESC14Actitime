@@ -1,0 +1,18 @@
+
+<suite name="Suite">
+<groups>
+<run>
+<include name="smoketest"/>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Com.Actitime.Testscripts.CustomerModule"/>
+      <class name="Com.Actitime.Testscripts.ProjectModule"/>
+      <class name="Com.Actitime.Testscripts.TaskModule"/>
+      <methods>
+      <include name="testDeleteCustomer" />
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
