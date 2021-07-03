@@ -19,10 +19,3 @@ private WebElement unam;
 }
 
 
-@Test
-Public void testLogin() throws Interrupted Exception{
-	WebDriver driver=new ChromeDriver();
-	driver.get("https://demo.actitime.com/");
-	LoginPage l=new LoginPage(driver);
-	l.SetLogin("admin");
-}
